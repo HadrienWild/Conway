@@ -1,6 +1,6 @@
 #!/usr/bin/env python 3
 
-# conway.py's unit testing
+# conway.py unit testing
 
 
 from conway import *

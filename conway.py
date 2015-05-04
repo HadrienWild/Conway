@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Conway'game of life simulator.
+# Conway's game of life simulator.
 # v20150504
 #
 # Author: Hadrien Wild
