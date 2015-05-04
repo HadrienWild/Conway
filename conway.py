@@ -1,7 +1,7 @@
-#!/usr/bin/en/python3
+#!/usr/bin/env python3
 
-# Conway'game simulator.
-# v20150501
+# Conway'game of life simulator.
+# v20150504
 #
 # Author: Hadrien Wild
 # E-mail: hadrien.wild@gmail.com
@@ -76,7 +76,7 @@ class Conway(object):
             if (x+1, y) not in old_cells and self.__count_neighbours((x+1, y), old_cells) == 3:
                 self.cells[(x+1, y)] = True   # right
             if (x+1, y-1) not in old_cells and self.__count_neighbours((x+1, y-1), old_cells) == 3:
-                self.cells[(x+1, y-1)] = True # lowr-right
+                self.cells[(x+1, y-1)] = True # lower-right
             if (x, y+1) not in old_cells and self.__count_neighbours((x, y+1), old_cells) == 3:
                 self.cells[(x, y+1)] = True   # top
             if (x, y-1) not in old_cells and self.__count_neighbours((x, y-1), old_cells) == 3:
