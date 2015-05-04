@@ -17,7 +17,7 @@ class Conway(object):
 
         Attributes:
             cells (dict): Cells contained in the world, which is represented as a 2D grid.
-                          The keys of the dictionnary are x, y (tuple) coordinates in the world.
+                          The keys of the dictionary are x, y (tuple) coordinates in the world.
                           Cells are represented as True (bool).
 
         Args:
@@ -85,10 +85,10 @@ class Conway(object):
     def __count_neighbours(self, coordinates, cells):
         """
         <Helper function for update_world()>
-        Counts the cells around the coordinate in the old_cells world.
+        Counts the cells around the coordinates in the old_cells world.
 
         Args:
-            coordinates (tuple): Coordinate x, y (int).
+            coordinates (tuple): Coordinates x, y (int).
             cells (dict): Cells in the old_cell world.
 
         Returns:
